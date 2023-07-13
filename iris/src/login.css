@@ -1,0 +1,73 @@
+body{
+  background-image: url("https://cdn.pixabay.com/photo/2017/09/21/08/56/eye-2771174_1280.jpg");
+ background-color: #cccccc;
+ background-size: cover;
+ background-repeat: no-repeat;
+ 
+}
+.logindiv{
+   margin-left:770px;
+  margin-right:300px;
+  margin-top:150px;
+    display: flex;
+  flex-direction: column;
+  align-items: left;
+  width:500px;
+  height: 600px; /* Adjust the height as needed */
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius:20px;
+  
+}
+#glassmorphic{
+  background: linear-gradient(145deg, rgba(189, 229, 245, 0.8), rgba(255, 255, 255, 0.1));
+  border-radius: 10px;
+  padding: 20px;
+  /*box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);*/
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+.logo{
+  
+ margin-left:105px;
+  margin-top:30px;
+
+  
+}
+
+.signup{
+  color:black;
+}
+.logindivv{
+  margin-left:770px;
+ margin-right:300px;
+ margin-top:150px;
+   display: flex;
+ flex-direction: column;
+ align-items: left;
+ width:500px;
+ height: 640px; /* Adjust the height as needed */
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+ border-radius:20px;
+ 
+}
+#glassmorphicc{
+ background: linear-gradient(145deg, rgba(189, 229, 245, 0.8), rgba(255, 255, 255, 0.1));
+ border-radius: 10px;
+ padding: 20px;
+ /*box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);*/
+ backdrop-filter: blur(10px);
+ -webkit-backdrop-filter: blur(10px);
+ box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+ border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.logoo{
+ 
+margin-left:105px;
+ margin-top:30px;
+
+ 
+}
+
