@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@thirdweb-dev/storage": "^1.1.8",
     "node-rsa": "^1.1.1"
   }
 }
