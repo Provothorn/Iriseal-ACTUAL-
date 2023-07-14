@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 
 body {
     background-color: #f2f2f2;
@@ -55,14 +60,4 @@ body {
     overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
     }
 
-    .gen-btn{
-
-
-      margin-left: 13px;
-      background-color: blue;
-      border-radius: 12px;
-      width: 300px;
-      padding: 13px;
-      color: #f2f2f2;
-    }
     

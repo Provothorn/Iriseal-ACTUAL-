@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 export default Homepage;
 
 
@@ -19,6 +20,7 @@ function Homepage(){
   <div class="homediv">
            <h1 class ="firsth1" >User E-mail IDs</h1>
 
+
   </div>
 
   <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse sidebar-dark bg-dark">
@@ -29,14 +31,19 @@ function Homepage(){
         </a>
         <br/>
         
+        <Link to="/singDocs">
         <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
-            class="fas fa-lock fa-fw me-3"></i><span>Password</span></a>
+            class="fas fa-lock fa-fw me-3"></i><span> Sign Docs</span></a>
               <br/>
+              </Link>
         
+              
+              <Link to="/verify">
         <a href="#" class="list-group-item list-group-item-action py-2 ripple">
-          <i class="fas fa-chart-pie fa-fw me-3"></i><span>SEO</span>
+          <i class="fas fa-chart-pie fa-fw me-3"></i><span>Verify Docs</span>
 
         </a>
+        </Link>
         <br/>
         
         <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
@@ -58,3 +65,33 @@ function Homepage(){
       
     )
   }
+
+
+
+//   <div class="homediv">
+//            <h1 class ="firsth1" >Verify Your Doc</h1>
+
+
+//            <div>
+//           <input
+//             type="text"
+//             onChange={(e) =>setKey(e.target.value)}
+//             placeholder='enter yor document hash'
+//           />
+//         </div>
+
+
+//         <div>
+//           <input
+//             type="text"
+//             onChange={(e) => Setdoc(e.target.value)}
+//             placeholder='Enter public key'
+//           />
+//         </div>
+
+// <div>
+//         <button>
+
+//             Decrypt
+//         </button>
+// </div>
