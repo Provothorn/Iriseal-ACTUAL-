@@ -16,6 +16,7 @@ let upload
 (async () => {
     upload = await storage.upload(fs.readFileSync("test.pdf"));
 
+    
      //used for encryption
     var user_key= key.exportKey('public');
     
@@ -62,7 +63,7 @@ let upload
   })();
 
 
-  
+
 //   import { useStorageUpload } from "@thirdweb-dev/react";
 //   import React, { useState } from "react";
   

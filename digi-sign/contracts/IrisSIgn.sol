@@ -9,7 +9,7 @@ contract IrisSign{
 
 struct UserSignature{
 
-bytes32  IrisData;
+string  IrisData;
 string publicKey;
 string privateKey;
 
@@ -18,11 +18,11 @@ string privateKey;
 
 
 
-mapping (bytes32 => UserSignature) private irisdataToUser;
+mapping (string => UserSignature) private irisdataToUser;
 
 
 
-function getPublicKey (bytes32 irisdata) public view returns ( string memory ){
+function getPublicKey (string memory irisdata) public view returns ( string memory ){
 
     return irisdataToUser[irisdata].publicKey;
 
@@ -30,14 +30,14 @@ function getPublicKey (bytes32 irisdata) public view returns ( string memory ){
 
 
 
-function getPrivateKey (bytes32 irisdata) public view returns (string memory){
+function getPrivateKey (string memory irisdata) public view returns (string memory){
 
     return irisdataToUser[irisdata].privateKey;
 
 }
 
 
-function AddUserToPublicKey(bytes32 _irisdata,string memory  _publicKey,string memory _privateKey) public  {
+function AddUserToPublicKey(string  memory _irisdata,string memory  _publicKey,string memory _privateKey) public  {
 
     UserSignature memory tempUser =  UserSignature(_irisdata,_publicKey,_privateKey);
      
